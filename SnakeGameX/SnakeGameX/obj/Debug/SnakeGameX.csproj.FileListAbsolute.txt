@@ -1,0 +1,11 @@
+C:\Users\ONAT\Desktop\Ben Veri Çalışan\SnakeGameX\SnakeGameX\obj\Debug\SnakeGameX.csproj.AssemblyReference.cache
+C:\Users\ONAT\Desktop\Ben Veri Çalışan\SnakeGameX\SnakeGameX\obj\Debug\SnakeGameX.csproj.SuggestedBindingRedirects.cache
+C:\Users\ONAT\Desktop\Ben Veri Çalışan\SnakeGameX\SnakeGameX\obj\Debug\SnakeGameX.Form1.resources
+C:\Users\ONAT\Desktop\Ben Veri Çalışan\SnakeGameX\SnakeGameX\obj\Debug\SnakeGameX.Properties.Resources.resources
+C:\Users\ONAT\Desktop\Ben Veri Çalışan\SnakeGameX\SnakeGameX\obj\Debug\SnakeGameX.csproj.GenerateResource.cache
+C:\Users\ONAT\Desktop\Ben Veri Çalışan\SnakeGameX\SnakeGameX\obj\Debug\SnakeGameX.csproj.CoreCompileInputs.cache
+C:\Users\ONAT\Desktop\Ben Veri Çalışan\SnakeGameX\SnakeGameX\bin\Debug\SnakeGameX.exe.config
+C:\Users\ONAT\Desktop\Ben Veri Çalışan\SnakeGameX\SnakeGameX\bin\Debug\SnakeGameX.exe
+C:\Users\ONAT\Desktop\Ben Veri Çalışan\SnakeGameX\SnakeGameX\bin\Debug\SnakeGameX.pdb
+C:\Users\ONAT\Desktop\Ben Veri Çalışan\SnakeGameX\SnakeGameX\obj\Debug\SnakeGameX.exe
+C:\Users\ONAT\Desktop\Ben Veri Çalışan\SnakeGameX\SnakeGameX\obj\Debug\SnakeGameX.pdb
