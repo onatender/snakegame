@@ -32,10 +32,12 @@ namespace SnakeGameX
 
         void DrawAllSnakePixels()
         {
-            foreach (Coordinate coordinate in SnakePixels)
+            SetColor(SnakePixels[0], Color.Yellow);
+            for (int i = 1; i < SnakePixels.Count; i++)
             {
-                SetColor(coordinate, snakeColor);
+                SetColor(SnakePixels[i], snakeColor);
             }
+
         }
 
         void ClearAllSnakePixels(List<Coordinate> lst)
@@ -100,11 +102,24 @@ namespace SnakeGameX
                     SnakePixels[0].y--;
                     break;
             }
-            if (SnakePixels[0].x > 19 || SnakePixels[0].x < 0 || SnakePixels[0].y < 0 || SnakePixels[0].y > 19)
+            if (SnakePixels[0].x > 19)
             {
-                GameOver();
-                return;
+                SnakePixels[0].x=0;
             }
+
+            else if (SnakePixels[0].x < 0)
+            {
+                SnakePixels[0].x=19;
+            }
+            else if (SnakePixels[0].y < 0)
+            {
+                SnakePixels[0].y=19;
+            }
+            else if (SnakePixels[0].y > 19)
+            {
+                SnakePixels[0].y=0;
+            }
+
             isAppleEaten = false;
             if (Pixels[SnakePixels[0].x][SnakePixels[0].y].BackColor == appleColor)
             {
@@ -117,7 +132,7 @@ namespace SnakeGameX
                     Direction = formerDirection;
                     SnakePixels[0].x = backup[0].x;
                     SnakePixels[0].y = backup[0].y;
-                    timer1_Tick(sender,e);
+                    timer1_Tick(sender, e);
                     return;
                 }
                 else
